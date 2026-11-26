@@ -18,7 +18,7 @@
   <main>
     <p><a href="index.html">← AnyEssens Automation</a></p>
     <h1>Privacy Policy</h1>
-    <p><strong>Effective date:</strong> 6 September 2026</p>
+    <p><strong>Effective date:</strong> 26 November 2026</p>
     <p>This policy explains how AnyEssens Automation accesses and uses Google and YouTube data. The application is a private, single-user desktop tool operated by the owner of the connected YouTube channel.</p>
 
     <h2>Data accessed</h2>
@@ -30,10 +30,19 @@
     </ul>
 
     <h2>How the data is used</h2>
-    <p>The data is used solely to upload and schedule videos, manage the connected channel when requested by its owner, and review video performance. Google user data is not used for advertising, profiling, or unrelated purposes.</p>
+    <p>The data is used solely to upload and schedule videos, manage the connected channel when requested by its owner, review video performance, and draft content and comment replies for the owner to approve. Google user data is not used for advertising, profiling, or unrelated purposes.</p>
+
+    <h2>AI service providers</h2>
+    <p>Some features send limited data to an AI service provider chosen and configured by the account owner with their own API key, such as Google Gemini, OpenAI, OpenRouter, Anthropic (via OpenRouter), DeepSeek, Moonshot (Kimi), Xiaomi (MiMo), Zhipu (GLM), MiniMax, ElevenLabs, or an AI video provider. Only the provider(s) the owner enables receive data.</p>
+    <ul>
+      <li><strong>Comments:</strong> the text of comments on the owner's videos is sent to the configured text provider to group themes, flag spam and draft replies. Replies are posted only after the owner approves them.</li>
+      <li><strong>Video and channel context:</strong> video titles, descriptions, topics and, where a feature uses it, a summary of channel performance may be sent to generate scripts, titles, descriptions, tags and content plans.</li>
+      <li><strong>Narration and media:</strong> script text written for the owner is sent to the configured voice, image or video provider to produce media.</li>
+    </ul>
+    <p>OAuth tokens are never sent to AI providers. Data is sent only to provide the feature the owner requested, and it is not used by AnyEssens Automation to train or improve generalized AI or machine-learning models. Each provider processes data under its own terms and privacy policy, which the owner accepts when creating an API key.</p>
 
     <h2>Storage and sharing</h2>
-    <p>Authorization tokens, generated media and automation records are stored locally on the account owner's computer. The application does not operate a central user database and does not sell, rent or share Google user data with third parties. Data may pass through Google APIs only as required to provide the requested YouTube functionality.</p>
+    <p>Authorization tokens, generated media and automation records are stored locally on the account owner's computer. The application does not operate a central user database and does not sell or rent Google user data. Google user data is shared only with Google APIs and with the AI service providers described above, and only as required to provide the functionality the owner requested. Optional anonymous usage telemetry is off by default and, if enabled by the owner, contains no Google user data.</p>
 
     <h2>Retention and deletion</h2>
     <p>Local tokens and automation records are retained until the account owner deletes them or disconnects the application. Access can be revoked at any time from the <a href="https://myaccount.google.com/connections">Google Account connections page</a>. After revocation, locally stored OAuth tokens can be deleted from the application configuration.</p>
